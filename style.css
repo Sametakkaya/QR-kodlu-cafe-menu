@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+.logo {
+  width: 30px;
+}
+.img-fluid {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.hoşgeldiniz {
+  text-align: center;
+  position: relative;
+  top: -35px;
+  color: #ffffff;
+  border: 0px solid rgb(0, 0, 0);
+  width: 60%;
+  margin: auto;
+  background-color: rgb(116, 46, 46);
+  border-radius: 10px 10px 10px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 5px;
+  box-shadow: 2px 5px 50px rgb(129, 127, 127);
+}
+.ürün-item {
+  padding: 20px 30px;
+}
+
+.fiyat {
+  color: rgb(211, 101, 28);
+  font-size: 20px;
+}
+hr {
+  width: 95%;
+  margin: auto;
+}
+.sosyal-link {
+  border-radius: 12px;
+}
+.qr-kod {
+  width: 100px;
+}

@@ -1,0 +1,164 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vitrin-style.css">
+    <title>PuQi Cafe</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3v0ipHBm2MgeD_AdNH0XQE8KlNXNtFC_7Vw&usqp=CAU" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myUL">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="index.html">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ürünler/sıcak-içecekler.html">Sıcak İçecekler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ürünler/soğuk-içecekler.html">Soğuk İçecekler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ürünler/kahveler.html">Kahveler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ürünler/tatlılar.html">Tatlılar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ürünler/fast-food.html">Hamburger Menü</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Diğer Ürünler
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./ürünler/bitki-çayları.html">Bitki Çayları</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./ürünler/dondurma-çeşitleri.html">Dondurma Çeşitleri</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="myInput" onkeyup="myFunction()">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header> 
+    <section class="hoşgeldiniz-container">
+      <img class="img-fluid" src="https://p4.wallpaperbetter.com/wallpaper/599/327/755/cooking-table-eggs-butter-wallpaper-preview.jpg" alt="">
+      <div class="ana-başlık">
+        <h3 class="display-1 hoşgeldiniz"><em>Puqi Cafe</em></h3>
+      </div>
+    </section>
+
+      <h2 class="text-center display-3">Hoşgeldiniz</h2>
+
+      <div class="bg-image"></div>
+      
+      <div class="bg-text">
+        <h2>Sınırsız meyve seçeneği ile</h2>
+        <h1>Waffle'ımızı Denediniz mi?</h1>
+        <p>Üstelik sadece <span class="vitrin-fiyat">39.99₺</span></p>
+      </div>  
+
+      
+      <div class="form-container">
+        <h4>İstek, Öneri Ve Şikayetinizi Bildirebilirsiniz.</h4> <hr>
+       <div class="form-box">
+        <form action="mailto:burak_samet19@hotmail.com" method="get" enctype="text/plain">
+          <input type="text" placeholder="Ad,Soyad" required> 
+          <input type="email" required placeholder="E-Mail"> <br>
+          <textarea name="textarea" required placeholder="İstek,Öneri Veya Şikayetiniz..." id="textarea" cols="38" rows="1"></textarea> <br>
+          <input type="submit">
+        </form>
+       </div>
+
+      </div>
+
+ 
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1 sosyal-link" href="https://tr-tr.facebook.com/" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1 sosyal-link" href="https://twitter.com/" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1 sosyal-link" href="https://www.google.com.tr/" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1 sosyal-link" href="https://www.instagram.com/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a> <br><br>
+        <a class="" href="#">
+          <img class="qr-kod" src="qr.png" alt="QR Kod">
+        </a>
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      PuQi Cafe 2022 <sup> &reg;</sup> <br> <em>"Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz"</em>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+    <script>
+      // nav-link.addEventListener("click", function(){
+      //   navbar.classList.toggle("d-none");
+      // })
+
+      // document.querySelector(".nav-link").addEventListener("click", function(){
+      // navbar.classList.remove("navbar-toggler")
+      // })
+
+//     const navLink = addEventListener(".nav-link")
+//     const navbar = addEventListener(".navbar")
+      
+//     const CloseNavbar = function(){
+//     navLink.classList.remove('navbar-nav')
+//     navbar.classList.remove("")
+// }
+
+//   navLink.addEventListener("click",CloseNavbar)
+
+// basketButton.addEventListener("click",function(){
+
+// cartBase.classList.toggle("d-none");
+
+// })
+
+
+
+    </script>
+    <script src="script.js"></script>
+    <script src="vitrin-script.js"></script>
+    <script src="https://kit.fontawesome.com/922e14d4eb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
