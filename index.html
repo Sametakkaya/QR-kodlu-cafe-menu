@@ -78,9 +78,17 @@
         <h4>İstek, Öneri Ve Şikayetinizi Bildirebilirsiniz.</h4> <hr>
        <div class="form-box">
         <form action="mailto:burak_samet19@hotmail.com" method="get" enctype="text/plain">
-          <input type="text" placeholder="Ad,Soyad" required> 
-          <input type="email" required placeholder="E-Mail"> <br>
-          <textarea name="textarea" required placeholder="İstek,Öneri Veya Şikayetiniz..." id="textarea" cols="38" rows="1"></textarea> <br>
+          <label for="contact-author">
+          <input type="text" name="contact-author" id="contact_author" placeholder="Ad,Soyad" required>
+          </label>
+
+          <label for="replyto">
+          <input type="email" required name="replyto" id="replyto" placeholder="E-Mail">
+        </label> <br>
+
+          <label for="contact">
+          <textarea name="textarea" required name="contact"  placeholder="İstek,Öneri Veya Şikayetiniz..." id="contact" cols="38" rows="1"></textarea>
+        </label> <br>
           <input type="submit">
         </form>
        </div>
